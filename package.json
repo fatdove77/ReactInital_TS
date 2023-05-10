@@ -10,6 +10,8 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.2.4",
     "@web3-react/core": "^6.1.9",
     "@web3-react/injected-connector": "^6.0.7",
     "antd": "^5.3.2",
@@ -62,7 +64,7 @@
     "autoprefixer": "^9",
     "postcss": "^7",
     "sass-resources-loader": "^2.2.5",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "ts-node": "^10.9.1"
   }
 }
-  

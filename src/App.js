@@ -17,7 +17,6 @@ function App() {
   return (
     <IntlProvider locale={lang} messages={lang === 'en-US' ? enUS : zhCN}>
       <Routes>
-        <NavBar></NavBar>
         <Index></Index>
       </Routes>
     </IntlProvider>

@@ -4,12 +4,17 @@ const Home = lazy(
   async () => await import('../Pages/Home')
 );
 
+const Test = lazy(
+  async () => await import('../Pages/Test')
+);
+
+
 
 function Index() {
   const element = useRoutes([
     {
       path: '/',
-      element: <Home></Home>,
+      element: <Test></Test>,
     },
   ])
   return (
